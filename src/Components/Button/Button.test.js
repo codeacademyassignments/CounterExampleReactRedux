@@ -13,6 +13,6 @@ describe('Button',()=>{
     const wrapper = shallow(<Button buttonText='press' onClick = {jest.fn()}/>);
     //console.log(wrapper);
     wrapper.find('button').simulate('click');
-    expect(wrapper.instance().props.onClick).toHaveBeenCalled();
+    expect(wrapper.props().onClick).toHaveBeenCalled();
   })
 })

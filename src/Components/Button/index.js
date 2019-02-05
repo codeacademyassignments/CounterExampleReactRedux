@@ -1,16 +1,14 @@
-import React, { Component } from 'react';
 import './Button.css';
+import React from 'react';
 
+const changeColor = {
+  color: 'black',
+}
 
+const Button = (props)=>{
+  return (
+  <button type="button" className = "style" style={changeColor}  onClick={props.onClick}>{props.buttonText}</button>
+  );
+}
 
-      class Button extends Component {
-        render() {
-          console.log(this.props);
-          return (
-            <button type="button" className = "style"  onClick={this.props.onClick}>{this.props.buttonText}</button>
-            
-          );
-        }
-      }
-
-      export default Button;
+export default Button

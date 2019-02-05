@@ -7,9 +7,6 @@ class Counter extends Component{
     count: this.props.initialValue,
   }
   increment = ()=>{
-    // console.log('somethign');
-    // console.log(this.state.count);
-    //this.state.count = this.state.count+1;
     this.setState({count: this.state.count+1});
   }
   decrement = ()=>{
@@ -17,13 +14,14 @@ class Counter extends Component{
     this.setState({count:this.state.count-1});
   }
   render(){
-    
-    //const counter =10;
+    // const color = {
+    //   color: black,
+    // }
     return (
       <div>
         <p>Counter:{this.state.count}</p>
       <div>
-      <Button buttonText = "ADD" onClick={this.increment}/>
+      <Button buttonText = "ADD" onClick={this.increment} />
       <Button buttonText = "MINUS" onClick={this.decrement}/>
 </div>
 </div>

@@ -10,6 +10,11 @@ exports[`Counter should render a Counter 1`] = `
     <button
       className="style"
       onClick={[Function]}
+      style={
+        Object {
+          "color": "black",
+        }
+      }
       type="button"
     >
       ADD
@@ -17,6 +22,11 @@ exports[`Counter should render a Counter 1`] = `
     <button
       className="style"
       onClick={[Function]}
+      style={
+        Object {
+          "color": "black",
+        }
+      }
       type="button"
     >
       MINUS
