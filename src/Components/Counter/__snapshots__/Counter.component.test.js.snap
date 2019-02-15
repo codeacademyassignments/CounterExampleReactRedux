@@ -2,9 +2,11 @@
 
 exports[`Counter should render a Counter 1`] = `
 <div>
-  <p>
+  <p
+    className="counterValue"
+  >
     Counter:
-    -10
+    0
   </p>
   <div>
     <button

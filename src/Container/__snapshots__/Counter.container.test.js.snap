@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Counter Container Snapshot should match with old snap 1`] = `
+<div>
+  <p
+    className="counterValue"
+  >
+    Counter:
+  </p>
+  <div>
+    <button
+      className="style"
+      onClick={[Function]}
+      style={
+        Object {
+          "color": "black",
+        }
+      }
+      type="button"
+    >
+      ADD
+    </button>
+    <button
+      className="style"
+      onClick={[Function]}
+      style={
+        Object {
+          "color": "black",
+        }
+      }
+      type="button"
+    >
+      MINUS
+    </button>
+  </div>
+</div>
+`;

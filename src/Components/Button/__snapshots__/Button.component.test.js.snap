@@ -3,11 +3,14 @@
 exports[`Button should render a button 1`] = `
 <button
   className="style"
+  onClick={[Function]}
   style={
     Object {
       "color": "black",
     }
   }
   type="button"
-/>
+>
+  press
+</button>
 `;
